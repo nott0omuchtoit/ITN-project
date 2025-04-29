@@ -113,4 +113,4 @@ data_2$referral_status[is.na(data_2$referral_status)] <- 'No'
 
 # Export data 
 
-write.csv(data_1, 'ITN_draft_1.csv', row.names = F)
+write.csv(data_2, 'ITN_data.csv', row.names = F)
