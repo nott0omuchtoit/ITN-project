@@ -13,7 +13,6 @@ library(janitor)
 households <- fread("C:/Users/user/Desktop/Analytic Engineering Project/AE-Project1/households.csv")
 referrals <- fread("C:/Users/user/Desktop/Analytic Engineering Project/AE-Project1/referrals.csv")
 chws <- fread("C:/Users/user/Desktop/Analytic Engineering Project/AE-Project1/chws.csv")
-anonymous_feedback <- read_excel("C:/Users/user/Desktop/Datasets/anonymous_feedback.xlsx", col_names = F)
 
 # check for missing data
 describe(households)
